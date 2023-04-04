@@ -1,0 +1,153 @@
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width:992px) {
+    .container {
+        max-width: 533px;
+    }
+
+    .button .danger-button {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .main-page {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* third-section */
+
+    .third-section-content {
+        flex-direction: column;
+    }
+
+    .third-section-image img {
+        max-width: 500px;
+    }
+
+    /* fourth-section */
+    .fourth-row {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .cards-row {
+        flex-direction: column;
+        padding-top: 100px;
+
+    }
+
+    /* fifth-section */
+    .fifth-section-buttons-image img {
+        max-width: 696px;
+    }
+
+    /* six-section */
+    .sixth-section-all-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sixth-section-card {
+        margin-bottom: 100px;
+
+    }
+
+    .sixth-section-card-content img {
+        margin-left: 0px;
+    }
+
+    .sixth-section-card-content {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    /* fifth-section */
+    .fifth-section-buttons-image img {
+        max-width: 532px;
+    }
+
+    /* eighth-section-start */
+    .eighth-section-image img {
+        width: 400px;
+    }
+
+    .eighth-section-suggestion input {
+        width: 350px;
+    }
+
+    .eighth-section-suggestion .message-text {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    /* first-section */
+    .first-section-content-text h1 {
+        font-size: 52px;
+    
+    }
+    .first-section-content{
+        padding-top: 0px;
+    }
+
+    /* third-section */
+
+    .third-section-content {
+        flex-direction: column;
+    }
+
+    .third-section-image img {
+        max-width: 300px;
+    }
+
+    .fourth-section-first-page {
+        width: 300px;
+
+    }
+
+    /* fifth-section */
+    .fifth-section-buttons-image img {
+        max-width: 305px;
+    }
+
+    .fifth-section-buttons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+
+    /* eight-section */
+
+
+
+    .eighth-section-image img {
+        width: 300px;
+    }
+
+    .eighth-section-suggestion input {
+        width: 279px;
+    }
+    .eighth-section-suggestion .message-text{
+        width: 300px;
+    }
+
+
+
+}
